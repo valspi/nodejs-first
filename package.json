@@ -1,0 +1,27 @@
+{
+    "name": "nodejs-first",
+    "version": "1.0.0",
+    "description": "First node.js project with dudes\"",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index.js",
+      "start:prod": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/valspi/nodejs-first.git"
+    },
+    "author": "Slavik",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/valspi/nodejs-first/issues"
+    },
+    "homepage": "https://github.com/valspi/nodejs-first#readme",
+    "dependencies": {
+      "express": "^4.17.1",
+      "lodash": "^4.17.20"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.4"
+    }
+  }
